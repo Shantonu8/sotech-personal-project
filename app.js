@@ -14,6 +14,10 @@ app.get("/tech", function(req, res){
 	res.render("tech")
 })
 
+app.get("/media", function(req, res){
+	res.render("media")
+})
+
 
 app.listen(3000, function(){
 	console.log("Serving on Port 3000")
