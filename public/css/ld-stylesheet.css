@@ -7,7 +7,6 @@
 body {
     background: url(../imgs/Final.png);
     background-size: cover;
-    font-family: lato;
     color: white;
 }
 
@@ -24,4 +23,8 @@ hr {
     width: 400px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+a {
+	text-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(0, 0, 0, 0)
 }

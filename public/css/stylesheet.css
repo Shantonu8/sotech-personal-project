@@ -8,3 +8,21 @@
 .card {
 	margin-bottom: 10px;
 }
+
+.width-hund {
+	width: 100%;
+}
+
+#about {
+	padding-top: 2.5%;
+}
+
+
+.para {
+	font-size: 25px;
+	padding-top: 5%;
+	color: ivory;
+	max-width: 700px;
+	margin-right: 0em;
+}
+
