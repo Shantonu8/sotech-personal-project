@@ -22,7 +22,12 @@ app.get("/media", function(req, res){
 app.get("/about-me", function(req, res){
 	res.render("about")
 })
+app.get("/test", function(req, res){
+	res.render("test")	
+})
+
 
 app.listen(3000, function(){
 	console.log("Serving on Port 3000")
 })
+
