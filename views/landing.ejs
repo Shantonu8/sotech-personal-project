@@ -1,13 +1,49 @@
-<%- include("../partials/landing-header")%>
+<%- include("../partials/header")%>
+<style>
+	#content {
+    text-align: center;
+    padding-top: 25%;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1)
+	}
+
+	body {
+		background: url(../imgs/background/bg3.png);
+		background-size: cover;
+		color: white;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	}
+
+	h1 {
+		font-weight: 700;
+		font-size: 5em;
+	}
+
+	html {
+		height: 100%;
+	}
+
+	hr {
+		width: 400px;
+		border-top: 1px solid #f8f8f8;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	}
+
+	a {
+		text-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(0, 0, 0, 0)
+	}
+</style>
+
+
 
   <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 fadeIn">
                 <div id="content">
                     <h1>Title</h1>
                     <h3>A website to find out about latest tech and learn about social media</h3>
                     <hr>
-					<a class="btn btn-light btn-lg" href="/tech"> Get Started!</a>
+					<a class="btn btn-outline-light btn-lg" href="/tech"> Get Started!</a>
                 </div>
             </div>
         </div>
