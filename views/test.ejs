@@ -1,23 +1,61 @@
-<html>
-<head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $(".btn1").click(function(){
-    $("p").fadeOut();
-  });
-  $(".btn2").click(function(){
-    $("p").fadeIn();
-  });
-});
-</script>
-</head>
-<body>
+<%- include("../partials/header")%>
 
-<p>This is a paragraph.</p>
+	
+<style>
+	body {
+		background: url("../imgs/background/landingBG.png");
+		background-size: cover;
+		color: white;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	}
+#content{
+    color: #f9f3f4;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    line-height: 0.4em;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1)
+}
 
-<button class="btn1">Fade out</button>
-<button class="btn2">Fade in</button>
+h1{
+    font-weight: 700;
+	font-size: 5em;
+}
 
-</body>
-</html>
+#particles-js{
+    height: 100vh;
+}
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+		
+a {
+	text-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(0, 0, 0, 0)
+}
+</style>
+
+
+	<div id="particles-js">
+        <div id="content">
+            <h1>SoTech</h1>
+			<h3>A website to find out about latest tech and learn about social media</h3>
+			<hr>
+            <a href="/tech" class="btn btn-outline-light btn-lg">Get Started</a>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script>
+        particlesJS.load('particles-js', '../scripts/particles.json',
+        function(){
+            console.log('particles.json loaded...')
+        })
+    </script>
+
+<%- include("../partials/footer")%>

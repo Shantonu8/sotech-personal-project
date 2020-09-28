@@ -1,54 +1,61 @@
 <%- include("../partials/header")%>
-<style>
-	#content {
-    text-align: center;
-    padding-top: 25%;
-    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1)
-	}
 
+	
+<style>
 	body {
-		background: url(../imgs/background/bg3.png);
+		background: url("../imgs/background/landingBG.png");
 		background-size: cover;
 		color: white;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 	}
+#content{
+    color: #f9f3f4;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    line-height: 0.4em;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1)
+}
 
-	h1 {
-		font-weight: 700;
-		font-size: 5em;
-	}
+h1{
+    font-weight: 700;
+	font-size: 5em;
+}
 
-	html {
-		height: 100%;
-	}
-
-	hr {
-		width: 400px;
-		border-top: 1px solid #f8f8f8;
-		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-	}
-
-	a {
-		text-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(0, 0, 0, 0)
-	}
+#particles-js{
+    height: 100vh;
+}
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+		
+a {
+	text-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(0, 0, 0, 0)
+}
 </style>
 
 
-
-  <div class="container">
-        <div class="row">
-            <div class="col-lg-12 fadeIn">
-                <div id="content">
-                    <h1>Title</h1>
-                    <h3>A website to find out about latest tech and learn about social media</h3>
-                    <hr>
-					<a class="btn btn-outline-light btn-lg" href="/tech"> Get Started!</a>
-                </div>
-            </div>
+	<div id="particles-js">
+        <div id="content">
+            <h1>SoTech</h1>
+			<h3>A place to find out about latest techonolgy and learn about social media</h3>
+			<hr>
+            <a href="/tech" class="btn btn-outline-light btn-lg">Get Started</a>
         </div>
     </div>
 
 
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script>
+        particlesJS.load('particles-js', '../scripts/particles.json',
+        function(){
+            console.log('particles.json loaded...')
+        })
+    </script>
 
 <%- include("../partials/footer")%>
