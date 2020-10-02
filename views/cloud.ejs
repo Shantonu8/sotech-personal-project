@@ -2,21 +2,37 @@
 
 <style>
 	body {
-		background: #373B44;  /* fallback for old browsers */
-		background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-		background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		/* background: #ad5389;  
+background: -webkit-linear-gradient(to left, #3c1053, #ad5389);  
+background: linear-gradient(to left, #3c1053, #ad5389);  */
+		background: url("../imgs/cloud/cloudBack2.png");
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		/* background: #4AC29A; 
+background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A); 
+background: linear-gradient(to right, #BDFFF3, #4AC29A);  */
+
+	}
+	
+	.bg {
+		background: rgba(206, 235, 240, 0.95);
+	}
+	
+	.opac {
+		opacity: 1;
 	}
 </style>
 
 
 <div class="exSpace fadeIn">
 
-	<div class="container d-none  d-lg-block padding opac">
+	<div class="container d-none  d-md-block padding opac">
 		<img src="../imgs/cloud/cloudbg.png" class="img-fluid height rounded ">
 	</div>
 
-	<div class="d-md-block d-lg-none opac">
-		<img src="../imgs/cloud/cloudbg.png" class="img-fluid rounded">
+	<div class="container d-sm-block d-md-none opac">
+		<img src="../imgs/cloud/cloudbg.png" class="img-fluid rounded headImg">
 	</div>
 	
 	

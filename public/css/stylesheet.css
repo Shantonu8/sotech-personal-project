@@ -112,3 +112,7 @@
 .opac {
 	opacity: 0.85;
 }
+
+.headImg {
+	height: 200px;
+}
