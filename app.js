@@ -53,7 +53,8 @@ app.get("/media/instagram", function(req, res){
 
 // SERVER STUFF
 
-app.listen(3000, function(){
-	console.log("Serving on Port 3000")
-})
+var port = process.env.PORT || 3000;
+app.listen(port, function () {
+  console.log("Server Has Started!");
+});
 

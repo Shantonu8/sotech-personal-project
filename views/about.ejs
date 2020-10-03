@@ -13,6 +13,8 @@
 	.fontSize {
 		font-size: 23px;
 		font-weight: 600;
+		text-align: justify;
+		padding-top: 2.5%;
 	}
 	
 	.move {
@@ -22,12 +24,18 @@
 	.space {
 		padding-top: 3.5%;
 	}
+	
+	.maxWidth {
+		width: 50%;
+		padding: auto auto;
+		margin: 0 auto;
+	}
 </style>
 
 <div class="container">
 	<div class="d-flex">
 		<div class="width-hund move fadeIn">
-			<h1 class="display-2 text-center">
+			<h1 class="display-2 text-center" id="ME">
 				About ME!
 			</h1>
 		</div>
@@ -36,31 +44,24 @@
 
 
 <div class="container">
-  <div class="row text-center">
-    <div class="col-md-6 space fadeIn">
-      <h1>
-		Why am I doing this?  
-	  </h1>
-      <p class="fontSize">
-		 I am doing as a part of my Personal Project and as a means to give back to the community in order to better inform and educate adults. This website has given me the perfect platform to showcase the skills that I developed overtime when learning web developement and also allowed me to spread knowledge through the website. 
-	  </p> 
-    </div>
-    <div class="col-md-6 space fadeIn">
-      <h1>
-		Who am I?  
-	  </h1>      
-	   <p class="fontSize">
-		 I am Shantonu Patiil, studying in 10th grade as of 2020. 
-	  </p> 
-    </div>
-  </div>
+	<div class="row">
+		<div class="col">
+			<div class="d-flex justify-content-center">
+				<h1 class="space" id="bout">
+					Who am I? Why am I doing this?
+				</h1>
+			</div>
+			<div>
+				<p class="fontSize">
+					I am doing as a part of my Personal Project and as a means to give back to the community in order to better inform and educate 						adults. This website has given me the perfect platform to showcase the skills that I have developed overtime when learning web 							developement and also allowed me to spread knowledge through the website.
+				</p>
+			</div>
+			
+		</div>
+	</div>
 </div>
 
+ <!-- I am doing as a part of my Personal Project and as a means to give back to the community in order to better inform and educate adults. This website has given me the perfect platform to showcase the skills that I developed overtime when learning web developement and also allowed me to spread knowledge through the website.  -->
 
-
-
-
-
-
-
+<!-- I am Shantonu, studying in 10th grade as of 2020. I have made this website as a part of my project as well as a means to give back to in order to better inform and educate adults. This website has provided me with the perfect platform to showcase all the skills that I have developed overtime when learning web development, this website has also allowed me to spread knowledge through the website. -->
 <%- include("../partials/footer")%>
