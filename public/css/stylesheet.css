@@ -135,3 +135,25 @@
 #bout {
 	font-family: 'Sansita Swashed', cursive;
 }
+
+.button {
+	margin-top: 5%;
+	background: transparent;
+	border: none;
+	outline: none;
+}
+.button:hover {
+	background:transparent;
+	border: 1px solid white;
+	border-radius: 30px; 
+}
+.next {
+	width: 153.23px;
+}
+.nextSeg {
+	width: auto;
+}
+
+ ol ul li {
+	list-style: inside;
+}
