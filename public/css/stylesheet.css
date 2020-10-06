@@ -157,3 +157,12 @@
  ol ul li {
 	list-style: inside;
 }
+
+	.imgFade {
+		opacity: 0;
+		transition: 1s;
+	}
+
+.scrollFade {
+	transition: 1s;
+}
