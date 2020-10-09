@@ -166,3 +166,31 @@
 .scrollFade {
 	transition: 1s;
 }
+
+.horiCard {
+	border: 1px solid black;
+	border-radius: .25rem;
+}
+/* .verticalHr {
+	width: 1px;
+	height: 100%;
+	color: black;
+	display: inline;
+} */
+
+.displayImg {
+	border-radius: .25rem;
+	border-right: 1px solid grey;
+	float: left;
+	height: 100%;
+}
+.horiText {
+	/* float: left; */
+	display: inline;
+	height: 100%;
+	width: 100%;
+}
+
+.horiTitle {
+	display: inline;
+}
