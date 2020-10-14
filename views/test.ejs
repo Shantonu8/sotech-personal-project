@@ -1,14 +1,12 @@
 <%- include("../partials/header")%>
-
-	
 <style>
-	body {
+	/* body {
 		background: url("../imgs/background/landingBG.png");
 		background-size: cover;
 		color: white;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
-	}
+	} */
 #content{
     color: #f9f3f4;
     position: absolute;
@@ -16,7 +14,8 @@
     top: 40%;
     width: 100%;
     line-height: 0.4em;
-	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1)
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+	font-family: 'Crimson Text', serif;
 }
 
 h1{
@@ -24,38 +23,146 @@ h1{
 	font-size: 5em;
 }
 
-#particles-js{
+#sizing{
     height: 100vh;
 }
-hr {
-	width: 400px;
-	border-top: 1px solid #f8f8f8;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
 		
-a {
-	text-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(0, 0, 0, 0)
-}
+	#background {
+		background: url("https://images.unsplash.com/photo-1554474054-1258273559a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+		background-size: cover;
+		color: white;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	}
+	
+	#type {
+		padding-top: 4%;
+		font-size: 1.2em;
+		font-weight: 600;
+	}
+	
+	#title {
+		padding-top: 6%;
+	}
+	
+	#author {
+		padding-top: 4%;
+		font-size: 1.2em;
+	}
+	#date {
+		padding-top: 2%;
+		font-size: 1.2em;
+	}
+	
+	#bodyBack {
+		background: url("../imgs/vr/vrBack.jpg");
+				background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		height: 100%
+	}
 </style>
 
+	<div id="background">
+		<div id="sizing">
+			<div id="content">
+				<p id="type">
+					Article
+				</p>
+				<h1 id="title">Virtual Reality</h1>
+				<p id="author">
+					Shantonu
+				</p>
+				<p id="date">
+					10/13/2020
+				</p>
+			</div>
+    	</div>
+	</div>
+<div id="bodyBack">
+	<div class="container padding">
+		<div class="header rounded fadeIn1">
+			<h1 class="center display-4 pudding">
+				Virtual Reality
+			</h1>
+		</div>
+		
+		<div class ="font bg rounded fadeIn2">
+			<div class="pad">
+				<p>
+					Virtual reality is a fully immersive computer-simulated environment. It is a relatively new technology, virtual reality simulates a 					real environment around you without actually being in that environment. It is very tough to explain virtual reality through words 					  but all I am going to say is that it is a whole new experience and it feels like it’s real but it’s not 
+				</p>
 
-	<div id="particles-js">
-        <div id="content">
-            <h1>SoTech</h1>
-			<h3>A website to find out about latest tech and learn about social media</h3>
-			<hr>
-            <a href="/tech" class="btn btn-outline-light btn-lg">Get Started</a>
-        </div>
-    </div>
+				<p>
+					Virtual Reality is a field that is heavily invested in by Facebook, as they believe immersiveness is the future for technology, as 					   virtual reality completely immerses you and is sometimes very hard to tell if one is in a real world or a simulated one. It has a 					 lot of uses like the ones listed below.
 
 
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-
-    <script>
-        particlesJS.load('particles-js', '../scripts/particles.json',
-        function(){
-            console.log('particles.json loaded...')
-        })
-    </script>
+				</p>
+				<!-- <div class="row">
+					<div class="d-flex col-md-12 col-lg-6 align-items-center">
+						<ul class="">
+							<li>Connect with existing friends or use it to make new friends </li>
+							<li>Interact with them visually, posts, or direct messages </li>
+							<li>Express opinions and thoughts </li>
+							<li>Find communities, create communities </li>
+							<li>Stay Updated</li>
+						</ul>
+					</div>
+					<div class="col-md-12 col-lg-6">
+						<img src="../imgs/facebook/facebookBody.png" class="bodyImg">
+					</div>
+					
+					
+				</div> -->
+				<p>
+					There are quite a lot of modern-day uses of Virtual Reality:
+				</p>
+				
+				<ol>
+					<li>Treatment of PTSD 
+						<ul>
+							PTSD (Post-traumatic stress disorder) is a very common situation between soldiers as they get flashbacks to their days in 							  combat. VR (Virtual Reality) can be used to simulate what they experience on the battlefield which causes a reliving 									experience in the soldier which can also help the medical team understand the patient’s condition.
+						</ul>
+					</li>
+					<li>Training Medical Students
+						<ul>
+							VR can be used to train medical students in different scenarios to learn how to perform surgical procedures without actually performing them in real life. This technology can help significantly improve the average experience between medical staff and allow for smoother surgical procedures.
+						</ul>
+					</li>
+					<li>Formulating and Testing Ideas
+						<ul>
+							Companies can use VR to perform simulations on how their product would perform in the fabricated world before testing it in reality. This gives companies insight on how to improve their products and tells them how they can further develop it.
+						</ul>
+					</li>
+					<li>Treating Mental Disorders
+						<ul>
+							VR can in general be used to help people with mental disorders as people with different mental disorders require different environments to improve on their mental health, VR can provide that as it allows for human-controlled environments. 
+						</ul>
+					</li>
+					<li>In Medicine
+						<ul>
+							 It can be used when performing surgical procedures that inflict a lot of pain on the human body as it can help distract the brain and confuse the pain pathway in their brain by distracting the brain. Many Dentists also utilize this technology to help patients be calm when performing dental procedures
+						</ul>
+					</li>
+					<li>Leisure Purposes 
+						<ul>
+							People can use this for leisure purposes as it can simulate any world they want; VR can be used for getting an immersive experience when playing video games. Users of VR can also travel the world virtually and get a close to real-life experience
+						</ul>
+					</li>
+					
+				</ol>
+				<p>
+					Overall, I feel that virtual reality can be used to achieve wonders and aid the modern world. This is a relatively new experience   since the 					 technology is new as well as holds a hefty price tag and requires really good computer hardware. This means that as of 						2020 VR(Virtual Reality) is not for the average man but be sure to look out for this in near future
+				</p>
+				
+			</div>
+			
+		</div>
+		<a class="btn btn-primary float-right button nextSeg" href="/media" >To Social Media Page <i class="fas fa-arrow-right"></i></a>
+		<a class="btn btn-primary float-left button" href="/tech/blockchain" title="Blockchain"><i class="fas fa-arrow-left"></i> Previous Article</a>
+	</div>
+</div>
+	
+	
 
 <%- include("../partials/footer")%>

@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap');
 
 .jumbotron {
 	margin-top: 2.5%;
@@ -53,7 +54,7 @@
 }
 
 .jumbo {
-	background: rgba(233, 236, 239, 0.7)
+	background: rgba(233, 236, 239, 0.7);
 }
 
 
@@ -156,6 +157,9 @@
 
  ol ul li {
 	list-style: inside;
+}
+ol ul {
+	padding-left: 20px;
 }
 
 	.imgFade {
