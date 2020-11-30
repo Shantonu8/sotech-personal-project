@@ -131,9 +131,10 @@
 
 #ME {
 	font-family: 'Dancing Script', cursive;
+	margin-bottom: 0;
 }
 
-#bout {
+.bout {
 	font-family: 'Sansita Swashed', cursive;
 }
 
