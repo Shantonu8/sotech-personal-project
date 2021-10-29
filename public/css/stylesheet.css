@@ -43,10 +43,6 @@
 
 .card {
 	margin-bottom: 5%;
-	/* border: 1px solid;
-	border-width: 5px;
-	border-image-slice: 1;
-	border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
 	background: rgba(255, 255, 255, 0.6);
 	border: none;
 	background-repeat: no-repeat;
@@ -90,12 +86,6 @@
 }
 
 
-
-/* .logo {
-	width: 100px;
-	height: 100px;
-}
- */
 
 
 .bg {
@@ -176,12 +166,6 @@ ol ul {
 	border: 1px solid black;
 	border-radius: .25rem;
 }
-/* .verticalHr {
-	width: 1px;
-	height: 100%;
-	color: black;
-	display: inline;
-} */
 
 .displayImg {
 	border-radius: .25rem;
@@ -190,7 +174,7 @@ ol ul {
 	height: 100%;
 }
 .horiText {
-	/* float: left; */
+
 	display: inline;
 	height: 100%;
 	width: 100%;
