@@ -51,6 +51,13 @@ app.get("/media/instagram", function(req, res){
 	res.render("instagram");
 })
 
+
+
+
+
+
+
+
 // SERVER STUFF
 
 var port = process.env.PORT || 3000;
